@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # StarCorp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Teste-Tecnico-Campeonatos
+>>>>>>> 32b12c4bc7af84b157146675dbaee0a7b642b67d
