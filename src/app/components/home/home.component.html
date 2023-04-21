@@ -1,1 +1,11 @@
-<p>home works!</p>
+<h1>campeonatos</h1>
+<div class="card-container">
+  <app-card
+    *ngFor="let campeonato of campeonatos"
+    [nome]="campeonato.nome"
+    [logo]="campeonato.logo"
+    [dataInicio]="campeonato.dataInicio"
+    [dataFim]="campeonato.dataFim"
+    [paisSede]="campeonato.paisSede"
+  ></app-card>
+</div>
