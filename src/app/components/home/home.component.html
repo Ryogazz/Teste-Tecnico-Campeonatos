@@ -1,11 +1,13 @@
-<h1>campeonatos</h1>
+<h1>Lista dos 150 primeiros pokemons</h1>
 <div class="card-container">
   <app-card
-    *ngFor="let campeonato of campeonatos"
-    [nome]="campeonato.nome"
-    [logo]="campeonato.logo"
-    [dataInicio]="campeonato.dataInicio"
-    [dataFim]="campeonato.dataFim"
-    [paisSede]="campeonato.paisSede"
-  ></app-card>
+  *ngFor="let pokemon of pokemons; let i = index"
+    [id]="pokemon.id"
+    [nome]="pokemon.name"
+    [tipo]="pokemon.types[0].type.name"
+    [peso]="pokemon.weight"
+    [imagem]="pokemon.sprites.front_default"
+
+  >
+  </app-card>
 </div>
