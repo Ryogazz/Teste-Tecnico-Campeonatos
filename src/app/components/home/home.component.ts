@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from 'src/app/services/api.service';
 import { Pokemon } from 'src/app/interfaces/pokemon.interface';
+import { SharedPokemonService } from 'src/app/services/shared-pokemon.service';
 
 @Component({
   selector: 'app-home',
@@ -12,15 +12,13 @@ export class HomeComponent implements OnInit {
    pokemons: Pokemon[] = [];
 
 
-   constructor(private apiService: ApiService) { }
+  constructor(private sharedPokemonService: SharedPokemonService) { }
 
-   ngOnInit(): void {
-    for (let i = 0; i <= 151; i++) {
-      this.apiService.getPokemons(i).subscribe((data: Pokemon[]) => {
-        this.pokemons = this.pokemons.concat(data);
-        console.log(this.pokemons);
-      });
-   }
+  ngOnInit(): void {
+    this.sharedPokemonService.loadPokemons();
+    this.sharedPokemonService.getPokemons().subscribe((data: Pokemon[]) => {
+    this.pokemons = data;
+  });
   }
 
 }

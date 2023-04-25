@@ -1,1 +1,22 @@
-<p>details works!</p>
+<div class="card">
+  <img
+  src="{{ pokemon?.sprites?.versions?.['generation-v']?.['black-white']?.animated?.front_default }}"
+  alt="Imagem do Pokémon" >
+  <h2>{{ pokemon?.name }}</h2>
+  <p>Número: <span class="number">{{pokemon?.id}}</span></p>
+  <p>
+    Tipo:
+    <span class="type" *ngFor="let type of pokemon?.types">
+      <span>{{type.type.name}}</span>
+    </span>
+  </p>
+  <p>Peso: {{ pokemon?.weight }} kg</p>
+  <div class="abilities">
+    <h3>Habilidades</h3>
+    <ul>
+      <li *ngFor="let ability of pokemon?.abilities">
+        {{ ability.ability.name }}
+      </li>
+    </ul>
+  </div>
+</div>
