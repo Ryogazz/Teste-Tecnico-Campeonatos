@@ -8,7 +8,7 @@ Projeto desenvolvido como prova prática para a empresa StarCorp, utilizando o f
 Para executar o projeto, é necessário ter o Node.js instalado na máquina.
 
 1.  Clone o repositório em sua máquina: `git clone`
-2.  Acesse a pasta do projeto: `cd pokedex-angular-bootstrap`
+2.  Acesse a pasta do projeto
 3.  Instale as dependências do projeto: `npm install`
 4.  Inicie o servidor local: `ng serve`
 5.  Acesse o endereço `http://localhost:4200/` em seu navegador
