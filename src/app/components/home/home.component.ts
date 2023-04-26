@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.sharedPokemonService.loadPokemons();
     this.sharedPokemonService.getPokemons().subscribe((data: Pokemon[]) => {
-    this.pokemons = data;
+    this.pokemons = data.sort((a, b) => a.id - b.id);
   });
   }
 

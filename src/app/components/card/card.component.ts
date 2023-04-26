@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
+
   constructor(private router: Router) {}
 
   @Input() nome!: string;
@@ -19,4 +20,5 @@ export class CardComponent {
   verDetalhes(id: number) {
     this.router.navigate(['/pokemon', id]);
   }
+
 }
