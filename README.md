@@ -16,7 +16,7 @@ Para executar o projeto, é necessário ter o Node.js instalado na máquina.
 ## Funcionalidades
 
 -   Visualização de informações sobre os pokémons: nome, número, tipo, peso e habilidades.
--   Listagem de pokémons com paginação.
+-   Listagem de 150 pokémons.
 -   Detalhamento de pokémon selecionado.
 
 ## Tecnologias utilizadas
