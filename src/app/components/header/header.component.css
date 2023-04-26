@@ -1,0 +1,23 @@
+.navbar-custom {
+  background-color: #ed1c24;
+  color: #ffffff;
+}
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+  font-family: 'Pokemon Solid', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px #000000;
+}
+
+
+.navbar-custom .nav-link {
+  color: #ffffff;
+  font-family: 'Pokemon Solid', sans-serif;
+  text-shadow: 2px 2px #000000;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ed1c24;
+  background-color: #ffffff;
+}

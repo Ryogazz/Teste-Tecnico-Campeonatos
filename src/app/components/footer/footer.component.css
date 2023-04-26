@@ -1,0 +1,31 @@
+.footer {
+  background-color: #cc0000; /* vermelho */
+  color: #fff; /* texto branco */
+  padding: 20px;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #fff; /* topo branco */
+  border-bottom: 0;
+  margin-left: -20px;
+}
+
+.footer::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom-color: #fff; /* base branco */
+  border-top: 0;
+  margin-left: -20px;
+}
