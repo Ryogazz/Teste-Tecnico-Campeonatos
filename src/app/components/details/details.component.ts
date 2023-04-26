@@ -18,6 +18,7 @@ export class DetailsComponent implements OnInit {
     private sharedPokemonService: SharedPokemonService
     ) {}
 
+
   ngOnInit(): void {
     this.id = this.route.snapshot.params['id'];
     this.sharedPokemonService.loadPokemons();

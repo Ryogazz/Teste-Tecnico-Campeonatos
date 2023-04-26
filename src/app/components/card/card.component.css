@@ -1,33 +1,4 @@
-.card {
-  width: 300px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  background-color: #ffffff;
-}
-
-.logo {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  margin-right: 20px;
-}
-
-.details {
-  display: flex;
-  flex-direction: column;
-}
-
-.name {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.date {
-  margin: 5px 0;
-}
-
-.country {
-  font-style: italic;
+.card-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
 }

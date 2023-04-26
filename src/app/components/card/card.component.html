@@ -1,9 +1,9 @@
-<div class="card">
-  <img [src]="imagem" alt="imagem do pokemon">
-  <div class="card-info">
-    <h2>{{ nome }}</h2>
-    <p><strong>Tipo:</strong> {{ tipo }}</p>
-    <p><strong>Peso:</strong> {{ peso }} kg</p>
+<div class="card card-hover shadow-sm">
+  <img class="card-img-top" [src]="imagem" alt="imagem do pokemon">
+  <div class="card-body">
+    <h2 class="card-title">{{ nome }}</h2>
+    <p class="card-text"><strong>Tipo:</strong> {{ tipo }}</p>
+    <p class="card-text"><strong>Peso:</strong> {{ peso }} kg</p>
+    <button (click)="verDetalhes(id)" class="btn btn-primary">Ver detalhes</button>
   </div>
-  <button (click)="verDetalhes(id)" class="btn btn-primary">Ver detalhes</button>
 </div>

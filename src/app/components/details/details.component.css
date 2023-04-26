@@ -1,70 +1,150 @@
-.card {
-  width: 300px;
-  height: 400px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.card img {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-}
-
-.card h2 {
-  font-size: 24px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.card p {
-  font-size: 16px;
-  margin: 10px 0;
-  text-align: center;
-}
-
-.card .number {
-  font-weight: bold;
-}
-
-.card .type {
-  display: flex;
-  justify-content: center;
-}
-
-.card .type span {
-  background-color: #ec5353;
+.type-normal {
+  background-color: #A8A77A;
   color: #fff;
-  padding: 5px;
-  margin: 0 5px;
-  border-radius: 5px;
-  text-transform: capitalize;
+  padding: 0 8px;
+  border-radius: 4px;
 }
 
-.card .abilities {
+.type-fighting {
+  background-color: #C22E28;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-flying {
+  background-color: #A98FF3;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-poison {
+  background-color: #A33EA1;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-ground {
+  background-color: #E2BF65;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-rock {
+  background-color: #B6A136;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-bug {
+  background-color: #A6B91A;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-ghost {
+  background-color: #735797;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-steel {
+  background-color: #B7B7CE;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-fire {
+  background-color: #EE8130;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-water {
+  background-color: #6390F0;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-grass {
+  background-color: #7AC74C;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-electric {
+  background-color: #F7D02C;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-psychic {
+  background-color: #F95587;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-ice {
+  background-color: #96D9D6;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-dragon {
+  background-color: #6F35FC;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-dark {
+  background-color: #705746;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-fairy {
+  background-color: #D685AD;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-unknown {
+  background-color: #68A090;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.type-shadow {
+  background-color: #493963;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+
+.sticky-footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 100vh;
 }
 
-.card .abilities h3 {
-  font-size: 20px;
-  margin: 20px 0 10px;
-}
-
-.card .abilities ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.card .abilities li {
-  font-size: 16px;
-  margin: 5px 0;
+.sticky-footer .row {
+  flex: 1;
 }
