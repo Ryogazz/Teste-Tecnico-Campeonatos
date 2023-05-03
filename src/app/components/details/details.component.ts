@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Pokemon } from 'src/app/interfaces/pokemon.interface';
-import { SharedPokemonService } from 'src/app/services/shared-pokemon.service';
+import { SharedPokemonService } from '../../services/shared-pokemon.service';
 
 @Component({
   selector: 'app-details',

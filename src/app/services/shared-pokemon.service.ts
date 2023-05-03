@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Pokemon } from '../interfaces/pokemon.interface';
-import { ApiService } from 'src/app/services/api.service';
+import { ApiService } from './api.service';
 import { Observable, Subject } from 'rxjs';
 
 @Injectable({

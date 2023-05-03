@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { DetailsComponent } from './components/details/details.component';
 import { CardComponent } from './components/card/card.component';
+import { ApiService } from './services/api.service';
 
 @NgModule({
   declarations: [
@@ -17,14 +18,16 @@ import { CardComponent } from './components/card/card.component';
     FooterComponent,
     HomeComponent,
     DetailsComponent,
-    CardComponent
+    CardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ApiService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
